@@ -12,6 +12,8 @@
 		3668C6681F9EAE5900D030FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3668C6661F9EAE5900D030FA /* Main.storyboard */; };
 		3668C66A1F9EAE5900D030FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3668C6691F9EAE5900D030FA /* Assets.xcassets */; };
 		3668C66D1F9EAE5900D030FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3668C66B1F9EAE5900D030FA /* LaunchScreen.storyboard */; };
+		3668C6751F9EAF2500D030FA /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668C6741F9EAF2500D030FA /* RestaurantTableViewController.swift */; };
+		36FB0EB91F9EBBC6001AA33F /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FB0EB81F9EBBC6001AA33F /* RestaurantTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3668C6691F9EAE5900D030FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3668C66C1F9EAE5900D030FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3668C66E1F9EAE5900D030FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3668C6741F9EAF2500D030FA /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		36FB0EB81F9EBBC6001AA33F /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				3668C6621F9EAE5800D030FA /* AppDelegate.swift */,
 				3668C6641F9EAE5900D030FA /* ViewController.swift */,
+				3668C6741F9EAF2500D030FA /* RestaurantTableViewController.swift */,
+				36FB0EB81F9EBBC6001AA33F /* RestaurantTableViewCell.swift */,
 				3668C6661F9EAE5900D030FA /* Main.storyboard */,
 				3668C6691F9EAE5900D030FA /* Assets.xcassets */,
 				3668C66B1F9EAE5900D030FA /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36FB0EB91F9EBBC6001AA33F /* RestaurantTableViewCell.swift in Sources */,
 				3668C6651F9EAE5900D030FA /* ViewController.swift in Sources */,
 				3668C6631F9EAE5800D030FA /* AppDelegate.swift in Sources */,
+				3668C6751F9EAF2500D030FA /* RestaurantTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WCCWSFG99;
 				INFOPLIST_FILE = FoodPin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geeTeam.FoodPin;
@@ -289,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WCCWSFG99;
 				INFOPLIST_FILE = FoodPin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geeTeam.FoodPin;

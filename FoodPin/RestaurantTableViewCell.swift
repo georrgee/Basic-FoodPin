@@ -1,6 +1,6 @@
 //
 //  RestaurantTableViewCell.swift
-//  FoodPin
+//  for FoodPin SCENE
 //
 //  Created by George Garcia on 10/23/17.
 //  Copyright © 2017 Gee Team. All rights reserved.

@@ -5,8 +5,14 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNextCondensed.ttc">
+            <string>AvenirNextCondensed-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Discover-->
         <scene sceneID="P9p-QW-k8B">
@@ -17,15 +23,61 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="n7t-si-zDh">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationWidth="10" reuseIdentifier="Cell" rowHeight="250" id="RIb-eS-mPk" customClass="RestaurantTableViewCell" customModule="FoodPin" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="250"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="n7t-si-zDh" id="2qN-rI-yFR">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RIb-eS-mPk" id="TRO-Hh-atg">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="249.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NaH-c5-Zik">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="165"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="165" id="dJm-m1-gXq"/>
+                                            </constraints>
+                                        </imageView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yFP-Y2-E4A">
+                                            <rect key="frame" x="164" y="173" width="47" height="68"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nri-Gf-RNa">
+                                                    <rect key="frame" x="0.0" y="0.0" width="47" height="24"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Type" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kly-gj-dNN">
+                                                    <rect key="frame" x="0.0" y="24" width="47" height="20.5"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Address" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cst-5C-GUR">
+                                                    <rect key="frame" x="0.0" y="44.5" width="47" height="23.5"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="yFP-Y2-E4A" firstAttribute="centerX" secondItem="NaH-c5-Zik" secondAttribute="centerX" id="H6a-ai-J4b"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="yFP-Y2-E4A" secondAttribute="bottom" constant="-2" id="HhT-2N-0SP"/>
+                                        <constraint firstAttribute="trailing" secondItem="NaH-c5-Zik" secondAttribute="trailing" id="Jee-jD-dLP"/>
+                                        <constraint firstItem="NaH-c5-Zik" firstAttribute="top" secondItem="TRO-Hh-atg" secondAttribute="top" id="QDA-Fu-bRJ"/>
+                                        <constraint firstItem="NaH-c5-Zik" firstAttribute="leading" secondItem="TRO-Hh-atg" secondAttribute="leading" id="dof-WD-Bgj"/>
+                                        <constraint firstItem="yFP-Y2-E4A" firstAttribute="top" secondItem="NaH-c5-Zik" secondAttribute="bottom" constant="8" symbolic="YES" id="gcn-dG-NDi"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="locationLabel" destination="cst-5C-GUR" id="9um-ir-zOK"/>
+                                    <outlet property="nameLabel" destination="nri-Gf-RNa" id="CfC-eF-Eif"/>
+                                    <outlet property="thumbnailImageView" destination="NaH-c5-Zik" id="ZDh-SB-ybg"/>
+                                    <outlet property="typeLabel" destination="kly-gj-dNN" id="uLF-f6-agb"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
+                        <sections/>
                         <connections>
                             <outlet property="dataSource" destination="J3e-oy-YYz" id="iFh-Yl-0oF"/>
                             <outlet property="delegate" destination="J3e-oy-YYz" id="POl-HN-b1P"/>
@@ -42,7 +94,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </activityIndicatorView>
             </objects>
-            <point key="canvasLocation" x="841" y="841"/>
+            <point key="canvasLocation" x="844" y="839.73013493253382"/>
         </scene>
         <!--Discover-->
         <scene sceneID="I59-x0-dU2">

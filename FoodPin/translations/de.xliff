@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="FoodPin/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="de">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8S201h"/>
+    </header>
+    <body/>
+  </file>
+  <file original="FoodPin/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="de">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8S201h"/>
+    </header>
+    <body>
+      <trans-unit id="5Ik-ha-Kpq.normalTitle">
+        <source>NEXT</source>
+        <target>Nächster</target>
+        <note>Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "5Ik-ha-Kpq";</note>
+      </trans-unit>
+      <trans-unit id="87e-VN-sYe.title">
+        <source>New Restaurant</source>
+        <target>neues Restaurant</target>
+        <note>Class = "UINavigationItem"; title = "New Restaurant"; ObjectID = "87e-VN-sYe";</note>
+      </trans-unit>
+      <trans-unit id="BgK-EL-iP5.text">
+        <source>LOCATION</source>
+        <target>Lage</target>
+        <note>Class = "UILabel"; text = "LOCATION"; ObjectID = "BgK-EL-iP5";</note>
+      </trans-unit>
+      <trans-unit id="BuA-j5-8a5.placeholder">
+        <source>Restaurant Phone</source>
+        <target>Restaurant Telefon</target>
+        <note>Class = "UITextField"; placeholder = "Restaurant Phone"; ObjectID = "BuA-j5-8a5";</note>
+      </trans-unit>
+      <trans-unit id="DgX-l9-5vc.placeholder">
+        <source>Restaurant Name</source>
+        <target>Restaurant Name</target>
+        <note>Class = "UITextField"; placeholder = "Restaurant Name"; ObjectID = "DgX-l9-5vc";</note>
+      </trans-unit>
+      <trans-unit id="Ecb-Vn-TuR.text">
+        <source>Personalize</source>
+        <target>Personifizieren</target>
+        <note>Class = "UILabel"; text = "Personalize"; ObjectID = "Ecb-Vn-TuR";</note>
+      </trans-unit>
+      <trans-unit id="Lyt-Yq-Hle.placeholder">
+        <source>Restaurant Type</source>
+        <target>Restaurant Type</target>
+        <note>Class = "UITextField"; placeholder = "Restaurant Type"; ObjectID = "Lyt-Yq-Hle";</note>
+      </trans-unit>
+      <trans-unit id="MFY-ZU-hDp.text">
+        <source>Location</source>
+        <target>Lage</target>
+        <note>Class = "UILabel"; text = "Location"; ObjectID = "MFY-ZU-hDp";</note>
+      </trans-unit>
+      <trans-unit id="Nu6-mx-I3h.text">
+        <source>Value</source>
+        <note>Class = "UILabel"; text = "Value"; ObjectID = "Nu6-mx-I3h";</note>
+      </trans-unit>
+      <trans-unit id="PXy-rK-L1I.normalTitle">
+        <source>YES</source>
+        <target>Ja</target>
+        <note>Class = "UIButton"; normalTitle = "YES"; ObjectID = "PXy-rK-L1I";</note>
+      </trans-unit>
+      <trans-unit id="PhY-m4-IxQ.text">
+        <source>Type</source>
+        <target>Type</target>
+        <note>Class = "UILabel"; text = "Type"; ObjectID = "PhY-m4-IxQ";</note>
+      </trans-unit>
+      <trans-unit id="UcD-D0-0Pw.placeholder">
+        <source>Restaurant Location</source>
+        <target>Restaurant Lage</target>
+        <note>Class = "UITextField"; placeholder = "Restaurant Location"; ObjectID = "UcD-D0-0Pw";</note>
+      </trans-unit>
+      <trans-unit id="Xdt-iu-YmN.normalTitle">
+        <source>Absolutely love it!</source>
+        <target>Absolut begeistert!</target>
+        <note>Class = "UIButton"; normalTitle = "Absolutely love it!"; ObjectID = "Xdt-iu-YmN";</note>
+      </trans-unit>
+      <trans-unit id="ZC7-d8-NR8.normalTitle">
+        <source>I don't like it</source>
+        <target>Ich mag es nicht</target>
+        <note>Class = "UIButton"; normalTitle = "I don't like it"; ObjectID = "ZC7-d8-NR8";</note>
+      </trans-unit>
+      <trans-unit id="dA4-Im-W0g.text">
+        <source>Pin your favorite restaurants and create your own food guide</source>
+        <target>Pin Ihre Lieblingsrestaurants und erstellen Sie Ihr eigenes Essen Führer</target>
+        <note>Class = "UILabel"; text = "Pin your favorite restaurants and create your own food guide"; ObjectID = "dA4-Im-W0g";</note>
+      </trans-unit>
+      <trans-unit id="ftK-GV-Xn1.title">
+        <source>Favorites</source>
+        <target>Favoriten</target>
+        <note>Class = "UITabBarItem"; title = "Favorites"; ObjectID = "ftK-GV-Xn1";</note>
+      </trans-unit>
+      <trans-unit id="gJl-Ug-d8y.title">
+        <source>Item</source>
+        <note>Class = "UITabBarItem"; title = "Item"; ObjectID = "gJl-Ug-d8y";</note>
+      </trans-unit>
+      <trans-unit id="hov-os-PNh.text">
+        <source>Field</source>
+        <note>Class = "UILabel"; text = "Field"; ObjectID = "hov-os-PNh";</note>
+      </trans-unit>
+      <trans-unit id="k23-EJ-leb.text">
+        <source>NAME</source>
+        <target>NAME</target>
+        <note>Class = "UILabel"; text = "NAME"; ObjectID = "k23-EJ-leb";</note>
+      </trans-unit>
+      <trans-unit id="lm0-h4-nbW.text">
+        <source>PHONE</source>
+        <target>TELEFON</target>
+        <note>Class = "UILabel"; text = "PHONE"; ObjectID = "lm0-h4-nbW";</note>
+      </trans-unit>
+      <trans-unit id="m9c-I4-w79.normalTitle">
+        <source>Good</source>
+        <target>Gut</target>
+        <note>Class = "UIButton"; normalTitle = "Good"; ObjectID = "m9c-I4-w79";</note>
+      </trans-unit>
+      <trans-unit id="oiJ-1J-SbI.text">
+        <source>TYPE</source>
+        <note>Class = "UILabel"; text = "TYPE"; ObjectID = "oiJ-1J-SbI";</note>
+      </trans-unit>
+      <trans-unit id="pn4-Zb-Dsl.title">
+        <source>Food Pin</source>
+        <note>Class = "UINavigationItem"; title = "Food Pin"; ObjectID = "pn4-Zb-Dsl";</note>
+      </trans-unit>
+      <trans-unit id="rLr-du-DRx.text">
+        <source>You've dined here. What do you think?</source>
+        <target>Sie auch hier zu Abend gegessen. Was denken Sie?</target>
+        <note>Class = "UILabel"; text = "You've dined here. What do you think?"; ObjectID = "rLr-du-DRx";</note>
+      </trans-unit>
+      <trans-unit id="uLT-rd-b2K.text">
+        <source>HAVE YOU BEEN HERE</source>
+        <target>WARST DU HIER</target>
+        <note>Class = "UILabel"; text = "HAVE YOU BEEN HERE"; ObjectID = "uLT-rd-b2K";</note>
+      </trans-unit>
+      <trans-unit id="v7h-cr-KYX.title">
+        <source>Item</source>
+        <target>Artikel</target>
+        <note>Class = "UITabBarItem"; title = "Item"; ObjectID = "v7h-cr-KYX";</note>
+      </trans-unit>
+      <trans-unit id="wKF-rJ-hcx.normalTitle">
+        <source>NO</source>
+        <target>NEIN</target>
+        <note>Class = "UIButton"; normalTitle = "NO"; ObjectID = "wKF-rJ-hcx";</note>
+      </trans-unit>
+      <trans-unit id="zGM-Hf-VCp.text">
+        <source>Name</source>
+        <target>Name</target>
+        <note>Class = "UILabel"; text = "Name"; ObjectID = "zGM-Hf-VCp";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="FoodPin/Base.lproj/about.storyboard" source-language="en" datatype="plaintext" target-language="de">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8S201h"/>
+    </header>
+    <body>
+      <trans-unit id="5IQ-49-HRI.title">
+        <source>About</source>
+        <target>über</target>
+        <note>Class = "UITabBarItem"; title = "About"; ObjectID = "5IQ-49-HRI";</note>
+      </trans-unit>
+      <trans-unit id="KbK-Aj-XdG.title">
+        <source>About</source>
+        <target>über</target>
+        <note>Class = "UINavigationItem"; title = "About"; ObjectID = "KbK-Aj-XdG";</note>
+      </trans-unit>
+      <trans-unit id="ijb-cx-9Iu.text">
+        <source>Title</source>
+        <note>Class = "UILabel"; text = "Title"; ObjectID = "ijb-cx-9Iu";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="FoodPin/Base.lproj/discover.storyboard" source-language="en" datatype="plaintext" target-language="de">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8S201h"/>
+    </header>
+    <body>
+      <trans-unit id="Kh6-7U-AFH.text">
+        <source>Address</source>
+        <target>Ort</target>
+        <note>Class = "UILabel"; text = "Address"; ObjectID = "Kh6-7U-AFH";</note>
+      </trans-unit>
+      <trans-unit id="LFh-26-mGy.text">
+        <source>Name</source>
+        <target>Name</target>
+        <note>Class = "UILabel"; text = "Name"; ObjectID = "LFh-26-mGy";</note>
+      </trans-unit>
+      <trans-unit id="R1h-vT-bIT.text">
+        <source>Type</source>
+        <target>Type</target>
+        <note>Class = "UILabel"; text = "Type"; ObjectID = "R1h-vT-bIT";</note>
+      </trans-unit>
+      <trans-unit id="dFS-JV-hq3.title">
+        <source>Discover</source>
+	<target>Entdecken</target>
+        <note>Class = "UINavigationItem"; title = "Discover"; ObjectID = "dFS-JV-hq3";</note>
+      </trans-unit>
+      <trans-unit id="hP8-yY-Lj7.title">
+        <source>Discover</source>
+	<target>Entdecken</target>
+        <note>Class = "UITabBarItem"; title = "Discover"; ObjectID = "hP8-yY-Lj7";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="FoodPin/Info.plist" source-language="en" datatype="plaintext" target-language="de">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8S201h"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="FoodPin/Localizable.strings" source-language="en" datatype="plaintext" target-language="de">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.0" build-num="8S201h"/>
+    </header>
+    <body>
+      <trans-unit id="Been here">
+        <source>Been here</source>
+        <target>Wir haben hier gewesen</target>
+        <note>Have you been here Field</note>
+      </trans-unit>
+      <trans-unit id="Discover">
+        <source>Discover</source>
+        <note>Discover</note>
+      </trans-unit>
+      <trans-unit id="Facebook">
+        <source>Facebook</source>
+        <note>Facebook</note>
+      </trans-unit>
+      <trans-unit id="Find restaurants pinned by your friends and other foodies around the world">
+        <source>Find restaurants pinned by your friends and other foodies around the world</source>
+        <note>Find restaurants pinned by your friends and other foodies around the world</note>
+      </trans-unit>
+      <trans-unit id="Follow Us">
+        <source>Follow Us</source>
+        <target>Folge uns</target>
+        <note>Follow Us</note>
+      </trans-unit>
+      <trans-unit id="Leave Feedback">
+        <source>Leave Feedback</source>
+        <target>Hinterlasse Kommentar</target>
+        <note>Leave Feedback</note>
+      </trans-unit>
+      <trans-unit id="Locate">
+        <source>Locate</source>
+        <target>lokalisieren</target>
+        <note>Locate</note>
+      </trans-unit>
+      <trans-unit id="Location">
+        <source>Location</source>
+        <target>Ort</target>
+        <note>Location/Address Field</note>
+      </trans-unit>
+      <trans-unit id="Name">
+        <source>Name</source>
+        <target>Name</target>
+        <note>Name Field</note>
+      </trans-unit>
+      <trans-unit id="No">
+        <source>No</source>
+        <target>Nein</target>
+        <note>No, I haven't been here</note>
+      </trans-unit>
+      <trans-unit id="Personalize">
+        <source>Personalize</source>
+        <target>Personifizieren</target>
+        <note>Personalize</note>
+      </trans-unit>
+      <trans-unit id="Phone">
+        <source>Phone</source>
+        <target>Telefon</target>
+        <note>Phone Field</note>
+      </trans-unit>
+      <trans-unit id="Pin your favorite restaurants and create your own food guide">
+        <source>Pin your favorite restaurants and create your own food guide</source>
+        <target>Pin Ihre Lieblingsrestaurants und erstellen Sie Ihr eigenes Essen Führer</target>
+        <note>Pin your favorite restaurants and create your own food guide</note>
+      </trans-unit>
+      <trans-unit id="Pinterest">
+        <source>Pinterest</source>
+        <note>Pinterest</note>
+      </trans-unit>
+      <trans-unit id="Rate us on App Store">
+        <source>Rate us on App Store</source>
+        <target>Bewerten Sie uns im App Store</target>
+        <note>Rate us on App Store</note>
+      </trans-unit>
+      <trans-unit id="Search and locate your favourite restaurant on Maps">
+        <source>Search and locate your favourite restaurant on Maps</source>
+        <target>Suchen und Finden Sie Ihre Lieblings-Restaurant auf Karten</target>
+        <note>Search and locate your favourite restaurant on Maps</note>
+      </trans-unit>
+      <trans-unit id="Tell us your feedback">
+        <source>Tell us your feedback</source>
+        <target>Sagen Sie uns Ihre Meinung</target>
+        <note>Tell us your feedback</note>
+      </trans-unit>
+      <trans-unit id="Twitter">
+        <source>Twitter</source>
+        <target>Twitter</target>
+        <note>Twitter</note>
+      </trans-unit>
+      <trans-unit id="Type">
+        <source>Type</source>
+        <target>Type</target>
+        <note>Type Field</note>
+      </trans-unit>
+      <trans-unit id="Yes, I've been here before. (restaurant.rating!)">
+        <source>Yes, I've been here before. (restaurant.rating!)</source>
+        <target>Ja, ich war schon einmal hier. (restaurant.rating!)</target>
+        <note>Yes, I've been here before</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

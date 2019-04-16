@@ -1,4 +1,4 @@
-# Basic-FoodPin
+# Food Pin
 Basic Food Pin app, messing with the prototype cell and customizing the table view
 
 ![about](https://user-images.githubusercontent.com/15641201/43110209-8534e386-8e9f-11e8-9781-b651ef52ab3b.png)
